@@ -13,6 +13,8 @@ client_secret = 'Client Secret from reddit'
 If you don't have these details:
 
 1) Log into your account on reddit, select "preferences", then select apps.
+
 2) Create a new "personal use script app" and fill in your information (tip: use redirect URL http://localhost:8080)
+
 3) Input information into config.py
 
