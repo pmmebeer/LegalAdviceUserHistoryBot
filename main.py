@@ -50,8 +50,7 @@ def comment_check():
         elif comment.subreddit in political_subreddits:
             political_sub_dict_comments[str(comment.subreddit)] += 1
 
-    if warning_sub_dict_comments is True or political_sub_dict_comments is True:
-        print("Commented in:")
+    print("Commented in:")
 
     for k, v in warning_sub_dict_comments.items():
         if v != 0:
@@ -69,8 +68,7 @@ def submission_check():
         elif submission.subreddit in political_subreddits:
             political_sub_dict_posts[str(submission.subreddit)] += 1
 
-    if warning_sub_dict_posts is True or political_sub_dict_posts is True:
-        print("Posted to:")
+    print("Posted to:")
 
     for k, v in warning_sub_dict_posts.items():
         if v != 0:
