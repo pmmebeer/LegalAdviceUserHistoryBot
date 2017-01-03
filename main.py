@@ -26,7 +26,8 @@ warning_subreddits = ['raisedbynarcissists',
                       'kotakuinaction',
                       'incels',
                       'redpillwomen',
-                      'mgtow']
+                      'mgtow',
+                      'justnomil']
 warning_sub_dict_comments = defaultdict(int)
 warning_sub_dict_posts = defaultdict(int)
 
