@@ -4,6 +4,8 @@ Examining a stream of posts to /r/legaladvice to look at a user's history for ac
 
 The warning_subreddits list and political_subreddits list can be customized for whatever subs you would like.
 
+___
+
 To use this bot, you must create a config.py file in the following format:
 
 user_agent = 'Your desired user agent'
@@ -11,6 +13,8 @@ user_agent = 'Your desired user agent'
 client_id = 'Client ID from reddit'
 
 client_secret = 'Client Secret from reddit'
+
+___
 
 If you don't have these details:
 
