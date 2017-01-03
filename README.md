@@ -24,3 +24,9 @@ If you don't have these details:
 
 3) Input information into config.py
 
+___
+
+Dependencies:
+
+Praw (python -m pip install praw)
+
