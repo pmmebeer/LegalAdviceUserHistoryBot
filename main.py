@@ -49,6 +49,7 @@ def comment_check():
             warning_sub_dict_comments[str(comment.subreddit)] += 1
         elif comment.subreddit in political_subreddits:
             political_sub_dict_comments[str(comment.subreddit)] += 1
+
     if warning_sub_dict_comments is True or political_sub_dict_comments is True:
         print("Commented in:")
 
