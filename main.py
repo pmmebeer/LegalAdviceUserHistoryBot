@@ -67,6 +67,7 @@ def submission_check():
             warning_sub_dict_posts[str(submission.subreddit)] += 1
         elif submission.subreddit in political_subreddits:
             political_sub_dict_posts[str(submission.subreddit)] += 1
+
     if warning_sub_dict_posts is True or political_sub_dict_posts is True:
         print("Posted to:")
 
