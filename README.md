@@ -7,7 +7,9 @@ The warning_subreddits list and political_subreddits list can be customized for 
 To use this bot, you must create a config.py file in the following format:
 
 user_agent = 'Your desired user agent'
+
 client_id = 'Client ID from reddit'
+
 client_secret = 'Client Secret from reddit'
 
 If you don't have these details:
